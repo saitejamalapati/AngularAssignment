@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script src="appScript.js"></script>
+	</head>
+	<body>
+		<div ng-app="GetCall">
+			<div ng-controller="getCallController">
+				<form>
+					UserName:  <input type="text" ng-model="namePost"></input>
+					Age: <input type="number" ng-model="agePost"></input>
+					City: <input type="text" ng-model="cityPost"></input>
+					<button type="submit" class="btn btn-lg btn-danger" ng-click="createUser()">Create User</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

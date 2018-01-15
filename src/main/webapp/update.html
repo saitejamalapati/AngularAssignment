@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script src="appScript.js"></script>
+	</head>
+	<body>
+		<div ng-app="GetCall">
+			<div ng-controller="getCallController">
+				<form>
+					ID: <input type = "text" ng-model = "idPut" size = "3"></input>
+					UserName: <input type = "text" ng-model = "namePut"></input>
+					Age: <input type = "number" ng-model = "agePut"></input>
+					City: <input type = "text" ng-model = "cityPut"></input>
+					<button type = "submit" class = "btn btn-lg btn-danger" ng-click = "updateUser(idPut)">Update User</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

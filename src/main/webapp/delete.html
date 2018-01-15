@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script src="appScript.js"></script>
+	</head>
+	<body>
+		<div ng-app="GetCall">
+			<div ng-controller="getCallController">
+				<form>
+					ID:  <input type="number" ng-model="idDelete" size = "3"></input>
+					<button type="submit" class="btn btn-lg btn-danger" ng-click="deleteUser(idDelete)">Delete User</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
